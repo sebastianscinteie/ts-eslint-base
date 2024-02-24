@@ -13,6 +13,14 @@ npm init @eslint/config
 npm i -D eslint-config-prettier
 ```
 
+To change remote:
+
+```
+git remote set-url origin <repo url>
+git branch -M main
+git push -u origin main
+```
+
 Eslint questions:
 
 ```
